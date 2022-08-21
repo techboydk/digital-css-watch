@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Illustration</title>
+</head>
+<body>
+	<div id="time">
+	  <div class="ap">
+	     <div id="ampm">AM</div>
+	  </div>
+	  <div class="circle" style="--clr:#31C6FA">
+	    <div class="dots hr-dot"></div>
+	    <svg>
+	      <circle cx='70' cy='70' r='70'></circle>
+	      <circle cx='70' cy='70' r='70' id="hh"></circle>
+	    </svg>
+	    <div id="hours" class="text">00</div>
+	  </div>
+	  <div class="circle" style="--clr:#F91EDE">
+	    <div class="dots min-dot"></div>
+	    <svg>
+	      <circle cx='70' cy='70' r='70'></circle>
+	      <circle cx='70' cy='70' r='70' id="mm"></circle>
+	    </svg>
+	    <div id="minutes" class="text">00</div>
+	  </div>
+	  <div class="circle" style="--clr:#B1E216">
+	    <div class="dots sec-dot"></div>
+	    <svg>
+	      <circle cx='70' cy='70' r='70'></circle>
+	      <circle cx='70' cy='70' r='70' id="ss"></circle>
+	    </svg>
+	    <div id="seconds" class="text">00</div>
+	  </div>
+	</div>
+</body>
+  <script src="js/index.js"></script>
+</html>
