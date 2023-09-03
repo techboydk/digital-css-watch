@@ -15,13 +15,13 @@ body{
 }
 #time{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 40px;
   color: #fff;
 }
-@media (min-width: 768px) and (max-width: 1024px){
+@media (max-width: 768px){
   #time{
-     flex-direction: row;
+     flex-direction: column;
   }
 }
 #time .circle{
