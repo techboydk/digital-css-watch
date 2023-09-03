@@ -19,7 +19,7 @@ body{
   gap: 40px;
   color: #fff;
 }
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
   #time{
      flex-direction: column;
   }
